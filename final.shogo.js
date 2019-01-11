@@ -42,4 +42,16 @@ function goban(){
          else{
           alert("知識が足りないですよ！");
       }
-         
+   }
+function initMap() {
+  var latlng = new google.maps.LatLng(35.388276, 139.427348);
+  var opt = {
+    zoom: 15,
+    center: latlng,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  };
+  var map = new google.maps.Map(document.getElementById('map'), opt);
+}
+function saisyo(){
+  location.href="final.shogo.html";
+}
