@@ -1,0 +1,25 @@
+body{
+  background: linear-gradient(gold,pink);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+
+h1 {
+  color: black;
+}
+
+p1 {
+  color: red
+}
+p2{
+  color: blue
+}
+p3{
+  color: red
+}
+h2{
+  color: green
+}
